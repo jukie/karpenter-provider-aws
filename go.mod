@@ -2,6 +2,8 @@ module github.com/aws/karpenter-provider-aws
 
 go 1.22.5
 
+replace sigs.k8s.io/karpenter v1.0.4 => github.com/jukie/karpenter v1.0.4-fork-termination-wait
+
 require (
 	github.com/Pallinder/go-randomdata v1.2.0
 	github.com/PuerkitoBio/goquery v1.9.2
